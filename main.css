@@ -16,16 +16,17 @@
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
+   margin-left: 1.5rem;
    transition: all 0.3s ease 0s;
 }
 
 
 #agree-button {
-  background-color: #36BA45;
+  background-color: #007D2B;
 }
 
 #agree-button:hover {
-  background-color: #49D431;
+  background-color: #00C946;
 
 }
 
@@ -37,5 +38,32 @@
 #cancel-button:hover {
   background-color: #FF092D;
 
+
+}
+
+#bottom-popup {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid black;
+  position: absolute;
+  right: 3rem;
+  bottom: 0rem;
+}
+
+#top-popup {
+  width: 20rem;
+  height: 5rem;
+  border: 1px solid black;
+  position: absolute;
+  right: 3rem;
+  top: 0rem;
+}
+
+.top-text-container {
+  text-align: center;
+}
+
+.come-back-soon {
+  display: inline-block;
 
 }
