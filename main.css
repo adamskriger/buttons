@@ -43,20 +43,28 @@
 
 #bottom-popup {
   width: 20rem;
-  height: 20rem;
-  border: 1px solid black;
+  height: 5rem;
+  border: 5px solid black;
+  border-bottom: none;
   position: absolute;
-  right: 3rem;
+  right: 1rem;
   bottom: 0rem;
+  border-radius: 5px;
+  padding: .25rem;
 }
 
 #top-popup {
   width: 20rem;
   height: 5rem;
-  border: 1px solid black;
+  border: 5px solid black;
+  border-top: none;
   position: absolute;
-  right: 3rem;
+  right: 1rem;
   top: 0rem;
+  border-radius: 5px;
+  padding: .25rem;
+
+
 }
 
 .top-text-container {
