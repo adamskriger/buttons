@@ -1,0 +1,41 @@
+.main-container {
+  width: 100%;
+  text-align: center;
+}
+
+.button-container {
+  display: inline-block;
+}
+
+.main-button {
+   border-radius: 11px;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   transition: all 0.3s ease 0s;
+}
+
+
+#agree-button {
+  background-color: #36BA45;
+}
+
+#agree-button:hover {
+  background-color: #49D431;
+
+}
+
+
+#cancel-button {
+  background-color: #C90700;
+}
+
+#cancel-button:hover {
+  background-color: #FF092D;
+
+
+}
